@@ -8,7 +8,7 @@
 ```shell
 brew install bochs
 ```
-在Ubantu上使用:
+在Ubantu上使用(Ubuntu 20.4测试成功):
 ```shell
 sudo apt install bochs
 sudo apt install bochs-x
