@@ -8,7 +8,11 @@
 ```shell
 brew install bochs
 ```
-
+在Ubantu上使用:
+```shell
+sudo apt install bochs
+sudo apt install bochs-x
+```
 ### 配置
 
 每个章节下的bios配置部分应视bochs的具体版本而定，需要自行修改：
