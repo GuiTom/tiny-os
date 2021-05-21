@@ -11,7 +11,7 @@ brew install bochs
 
 ### 配置
 
-每个章节下的bios配置部分应视bochs的具体版本而定，可自行修改：
+每个章节下的bios配置部分应视bochs的具体版本而定，需要自行修改：
 
 ```html
 # 对应真实机器的bios
