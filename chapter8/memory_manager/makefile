@@ -58,7 +58,7 @@ $(BUILD_DIR)/kernel.bin: $(OBJS)
 
 mk_dir:
 	if [ ! -d $(BUILD_DIR) ]; then mkdir $(BUILD_DIR); fi
-	bximage -hd -mode=flat -size=10 -q disk.img
+	bximage -hd=10 -mode=create -q disk.img
 	echo "Create image done."
 
 hd:
