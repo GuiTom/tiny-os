@@ -3,7 +3,7 @@
 
 ### Bochs
 
-在Mac上使用以下命令安装:
+在Mac上使用以下命令安装:（Mac 环境下运行报错，暂未解决）
 
 ```shell
 brew install bochs
@@ -73,6 +73,7 @@ vgaromimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/VGABIOS-lgpl-lates
    ```assembly
    times 120 dd 0
    ```
+4.遇到bochs 打印jmp xxx xxx 之后卡住不动的情况,按C键(continue)回车即可
 
 ### 第五章
 
