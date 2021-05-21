@@ -18,10 +18,18 @@ sudo apt install bochs-x
 每个章节下的bios配置部分应视bochs的具体版本而定，需要自行修改：
 
 ```html
+# mac 下面
 # 对应真实机器的bios
 romimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/BIOS-bochs-latest
 # 对应真实机器的VGA bios
 vgaromimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/VGABIOS-lgpl-latest
+```
+```html
+# Ubutu 下面
+# 对应真实机器的bios
+romimage: file=/usr/share/bochs/BIOS-bochs-latest
+# 对应真实机器的VGA bios
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
 ```
 
 ## 说明
