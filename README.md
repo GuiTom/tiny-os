@@ -25,7 +25,7 @@ romimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/BIOS-bochs-latest
 vgaromimage: file=/usr/local/Cellar/bochs/2.6.9_2/share/bochs/VGABIOS-lgpl-latest
 ```
 ```html
-# Ubutu 下面
+# Ubuntu 20.4 下面
 # 对应真实机器的bios
 romimage: file=/usr/share/bochs/BIOS-bochs-latest
 # 对应真实机器的VGA bios
